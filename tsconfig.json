@@ -13,5 +13,14 @@
   "exclude": [
     "node_modules"
   ],
-  "compileOnSave": false
-}
+  "compileOnSave": false,
+      "noImplicitAny": false,
+    "types": [
+      "meteor-typings",
+      "@types/underscore",
+      "@types/meteor-accounts-phone",
+      "@types/meteor-publish-composite"
+    ]
+  },
+  "include": [
+
